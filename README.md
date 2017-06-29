@@ -1,6 +1,8 @@
 # phpBB Auto Database Backup
 
-This is the repository for the development of the phpBB Auto Database Backup Extension.
+This is the forked repository of phpBB Auto Database Backup Extension.
+
+The forked version changes interval of backup from days to hours.
 
 ## Quick Install
 You can install this on the latest copy of the develop branch ([phpBB 3.1-dev](https://github.com/phpbb/phpbb3)) by following the steps below:
@@ -19,9 +21,6 @@ You can install this on the latest copy of the develop branch ([phpBB 3.1-dev](h
 2. Look for `Auto Database Backup` under the Enabled Extensions list, and click its `Disable` link.
 3. To permanently uninstall, click `Delete Data` and then delete the `/ext/pico/autodbbackup` folder.
 
-## Automated Testing
-
-* master [![Build Status](https://travis-ci.org/Pico/phpBB-Auto-Database-Backup.svg?branch=master)](https://travis-ci.org/Pico/phpBB-Auto-Database-Backup)
 
 ## License
 [GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)

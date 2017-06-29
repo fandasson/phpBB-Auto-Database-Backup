@@ -30,7 +30,7 @@
 </dl>
 <dl>
 	<dt><label for="auto_db_backup_gc">{L_AUTO_DB_BACKUP_FREQ}{L_COLON}</label><br /><span>{L_AUTO_DB_BACKUP_FREQ_EXPLAIN}</span></dt>
-	<dd><input id="auto_db_backup_gc" type="number" maxlength="2" name="auto_db_backup_gc" value="{AUTO_DB_BACKUP_GC}"  /> <span>{L_DAYS}</span></dd>
+	<dd><input id="auto_db_backup_gc" type="number" maxlength="2" name="auto_db_backup_gc" value="{AUTO_DB_BACKUP_GC}"  /> <span>{L_HOURS}</span></dd>
 </dl>
 <dl>
 	<dt><label for="auto_db_backup_copies">{L_AUTO_DB_BACKUP_COPIES}{L_COLON}</label><br /><span>{L_AUTO_DB_BACKUP_COPIES_EXPLAIN}</span></dt>
@@ -40,6 +40,10 @@
 	<dt><label for="auto_db_backup_optimize">{L_AUTO_DB_BACKUP_OPTIMIZE}{L_COLON}</label><br /><span>{L_AUTO_DB_BACKUP_OPTIMIZE_EXPLAIN}</span></dt>
 	<dd><label><input type="radio" class="radio" id="auto_db_backup_optimize" name="auto_db_backup_optimize" value="1"<!-- IF S_AUTO_DB_BACKUP_OPTIMIZE --> checked="checked"<!-- ENDIF --> /> {L_ENABLED}</label>
 		<label><input type="radio" class="radio" name="auto_db_backup_optimize" value="0"<!-- IF not S_AUTO_DB_BACKUP_OPTIMIZE --> checked="checked"<!-- ENDIF --> /> {L_DISABLED}</label></dd>
+</dl>
+<dl>
+    <dt>Last backup</dt>
+<dd>{AUTO_DB_BACKUP_LAST_GC}</dd>
 </dl>
 <dl>
 	<dt><label for="auto_db_backup_day">{L_AUTO_DB_BACKUP_TIME}{L_COLON}</label><br /><span>{L_AUTO_DB_BACKUP_TIME_EXPLAIN}</span></dt>
