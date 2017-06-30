@@ -23,7 +23,7 @@ class auto_db_backup extends \phpbb\cron\task\base
 	/**
 	* Constructor.
 	*/
-	public function __construct($phpbb_root_path, $php_ext, \phpbb\config\config $config, \phpbb\db\driver\driver_interface $db, \phpbb\db\tools $db_tools, \phpbb\log\log $log, \phpbb\user $user)
+	public function __construct($phpbb_root_path, $php_ext, \phpbb\config\config $config, \phpbb\db\driver\driver_interface $db, \phpbb\db\tools\tools $db_tools, \phpbb\log\log $log, \phpbb\user $user)
 	{
 		$this->phpbb_root_path = $phpbb_root_path;
 		$this->php_ext = $php_ext;
